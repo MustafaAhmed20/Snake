@@ -1,8 +1,19 @@
 # Snake
 
-snake game with C language . <br />
-there is a bug somewhere but i couldn't find it ^ ^ <br />
-.. <br />
-note : the code runs on windows <br />
+CLI _game_ written in C . just for fun
 
-i wrote this code two years ago , and i was learning so i didn't care about efficiency ^_^
+## issues
+
+when the snake _eat_ , i allocate new place in memory and save that new part of the body' data.
+
+there is a **randomly appeared BUG** in the instant the snake eat , the program then crash. 
+
+### running environment
+
+this code runs on **windows** and need **C** compiler.
+
+i used _GCC_ compiler . [here](https://gcc.gnu.org)
+
+## License
+
+The contents of this repository are covered under the MIT License.
